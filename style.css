@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("images/netflix.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    margin: auto;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 15px;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-matter{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    transform: :translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-matter h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 1100;
+    max-width: 1100px;
+}
+.header-matter h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.seperation{
+    height: 7px;
+    background-color:rgb(46, 44, 44);
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1px;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secimg{
+   position: relative;
+}
+.secimg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+section.first >div{
+    display: flex;
+    flex-direction: column;
+    left: 5%;
+}
+.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first >div :nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+.secimg1 img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    right:5%
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{ 
+    background-color:rgb(63, 59, 59);
+    color: #fff;
+}
+.faq svg{
+    filter: invert(1);
+}
+.faqbox{
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    color: #fff;
+}
+footer{
+    color: #fff;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px
+}
+footer .que{
+    padding: 33px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #fff;
+}
+.footer a{
+    font-size: 14px;
+    color: #fff;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
