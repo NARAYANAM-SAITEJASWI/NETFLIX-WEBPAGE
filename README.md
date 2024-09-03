@@ -2,7 +2,7 @@
 
 @Hi Connections!!
 
-This is the opening page of Netflix.  The task given by the Bharath Intern.
+This is the opening page of Netflix. 
 
 It's look like...
 
